@@ -18,6 +18,7 @@ export class HomeComponent implements OnInit {
   testing(){
     this.questionPairs = [];
     this.selectedAnswer = '';
+    this.selectedIndex = 100000000;
     let postBody = {
       "para":this.text
     }
