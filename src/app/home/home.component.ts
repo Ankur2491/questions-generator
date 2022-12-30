@@ -16,6 +16,8 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
   testing(){
+    this.questionPairs = [];
+    this.selectedAnswer = '';
     let postBody = {
       "para":this.text
     }
